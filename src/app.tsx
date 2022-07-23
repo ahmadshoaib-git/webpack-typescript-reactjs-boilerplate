@@ -9,6 +9,8 @@ const App = () => {
         <span>React TypeScript Webpack Starter Template</span>
         <img src={svg} alt="Boilerplate Icon" />
       </div>
+      <div>{process.env.name}</div>
+      <div>{process.env.NODE_ENV}</div>
     </div>
   );
 };
