@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(22, 22, 22);
+  color: rgb(218, 164, 0);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 100vh;
+  min-width: 100%;
+}
+.app {
+  width: 25rem;
+  line-height: 2.5rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app > img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: none;
+  margin-bottom: 2rem;
+  border-radius: 50%;
+}
+
+.app div {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.app div span {
+  text-align: center;
+}
+
+.app > div img {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  bottom: 0.25rem;
+  right: 2.5rem;
+}
