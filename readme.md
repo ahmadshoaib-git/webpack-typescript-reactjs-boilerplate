@@ -9,5 +9,6 @@ Following configuration has been done in this boilerplate.
 5. Different types of images and svg config for typescript webpack enabled
 6. Webpack for different environments enabled
 7. Start and build scripts added based on environments
+8. React refresh webpack plugin integrated
 
 Based on these configurations the boilerplate can be efficiently used for any frontend react based project.
