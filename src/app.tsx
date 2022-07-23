@@ -4,7 +4,9 @@ import Image1 from "./assets/imgs/image1.jpg";
 const App = () => {
   return (
     <div className="app">
-      <img src={Image1} alt="Boilerplate Image" />
+      <div className="outer-img bounce-out-down">
+        <img src={Image1} alt="Boilerplate Image" />
+      </div>
       <div>
         <span>React TypeScript Webpack Starter Template</span>
         <img src={svg} alt="Boilerplate Icon" />

@@ -23,12 +23,21 @@ body {
   align-items: center;
 }
 
-.app > img {
+.app > .outer-img > img {
   width: 10rem;
   height: 10rem;
   object-fit: none;
   margin-bottom: 2rem;
   border-radius: 50%;
+  /* We call the spinnerOne keyframe and make it do a full animation in 1.5s in same speed (linear) and repeat */
+  animation: spinnerOne 8s linear infinite;
+  position: relative;
+  bottom: unset;
+  right: unset;
+}
+
+.app .outer-img {
+  display: block;
 }
 
 .app div {
@@ -47,4 +56,41 @@ body {
   position: absolute;
   bottom: 0.25rem;
   right: 2.5rem;
+}
+
+@keyframes spinnerOne {
+  0% {
+    transform: rotate(0deg);
+  }
+  /* Halfway through the spin, animate to a thinner border */
+  20% {
+    transform: rotate(60deg);
+  }
+  40% {
+    transform: rotate(90deg);
+  }
+  60% {
+    transform: rotate(130deg);
+  }
+  80% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.bounce-out-down {
+  animation: bounce-out-down 2s ease infinite;
+}
+@keyframes bounce-out-down {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
