@@ -1,7 +1,9 @@
-import "./assets/css/styles.css";
-import svg from "./assets/svg/icon.svg";
 import Image1 from "./assets/imgs/image1.jpg";
-const App = () => {
+import svg from "./assets/svg/icon.svg";
+import "./assets/css/styles.css";
+
+function App() {
+  const num = 10;
   return (
     <div className="app">
       <div className="outer-img bounce-out-down">
@@ -15,6 +17,6 @@ const App = () => {
       <div>{process.env.NODE_ENV}</div>
     </div>
   );
-};
+}
 
 export default App;
