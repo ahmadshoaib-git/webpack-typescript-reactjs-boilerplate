@@ -10,6 +10,10 @@ Following configuration has been done in this boilerplate.
 6. Webpack for different environments enabled
 7. Start and build scripts added based on environments
 8. React refresh webpack plugin integrated
-9. Eslint Configured
+9. Eslint configured
+10. Prettierrc configured
+11. Husky configured
+12. Configured lint-stage
+13. Webpack Bundle Analyzer configured
 
 Based on these configurations the boilerplate can be efficiently used for any frontend react based project.
