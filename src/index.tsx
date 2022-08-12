@@ -1,6 +1,6 @@
-import * as React from "react";
-import * as ReactDOM from "react-dom";
-import App from "./app";
+import * as React from 'react'
+import * as ReactDOM from 'react-dom'
+import App from './app'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -8,5 +8,5 @@ ReactDOM.render(
       <App />
     </React.Suspense>
   </React.StrictMode>,
-  document.getElementById("root")
-);
+  document.getElementById('root')
+)
