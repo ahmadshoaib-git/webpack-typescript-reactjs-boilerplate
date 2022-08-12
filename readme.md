@@ -14,6 +14,7 @@ Following configuration has been done in this boilerplate.
 10. Prettierrc configured
 11. Husky configured
 12. Configured lint-stage
-13. Webpack Bundle Analyzer configured
+13. Configured plugin-transform-runtime
+14. Webpack Bundle Analyzer configured
 
 Based on these configurations the boilerplate can be efficiently used for any frontend react based project.
